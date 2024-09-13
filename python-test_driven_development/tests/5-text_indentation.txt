@@ -1,0 +1,14 @@
+>>> text_indentation("Hello. How are you? I am fine.")
+Hello.
+
+How are you?
+
+I am fine.
+
+>>> text_indentation("No special characters here.")
+No special characters here.
+
+>>> text_indentation(123)
+Traceback (most recent call last):
+    ...
+TypeError: text must be a string
