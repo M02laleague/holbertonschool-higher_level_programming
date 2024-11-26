@@ -1,34 +1,109 @@
-# JavaScript DOM Manipulation
+# JavaScript DOM Manipulation Project
 
-Ce projet a pour objectif de pratiquer la manipulation du DOM en JavaScript.  
-Les scripts JavaScript doivent répondre à des exigences spécifiques pour interagir avec des éléments HTML, modifier leur contenu ou leur style, et gérer des événements.  
-
-## Ressources
-- [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
-- [Fetching data from the server](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-- [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
-
-## Objectifs d'apprentissage
-- Sélectionner des éléments HTML avec JavaScript.
-- Modifier les styles ou le contenu d'un élément HTML.
-- Gérer des événements utilisateur comme les clics.
-- Faire des requêtes HTTP avec `Fetch API` ou `XmlHTTPRequest`.
-- Manipuler dynamiquement le DOM sans recharger la page.
-
-## Fichiers
-- `0-script.js` : Modifie la couleur d'un élément `header` en rouge.
-- `1-script.js` : Change la couleur du `header` au clic d'un élément avec l'ID `red_header`.
-- `2-script.js` : Ajoute une classe CSS rouge au `header`.
-- `3-script.js` : Alterne les classes CSS entre rouge et vert pour le `header`.
-- `4-script.js` : Ajoute dynamiquement des éléments `li` à une liste.
-- `5-script.js` : Modifie le texte d'un `header` au clic.
-- `6-script.js` : Affiche un personnage de Star Wars en récupérant des données de l'API.
-- `7-script.js` : Affiche une liste des films Star Wars à partir de l'API.
-- `8-script.js` : Affiche une traduction de "hello" à partir d'une API.
+## 🚀 Introduction
+This project is an in-depth exploration of **Document Object Model (DOM)** manipulation in JavaScript.  
+It focuses on strengthening your practical skills in:
+- Dynamically interacting with HTML elements.
+- Handling user events.
+- Utilizing APIs to enhance web interfaces.
 
 ---
 
-## Usage
-1. Créez un environnement de développement.
-2. Testez chaque script avec les fichiers HTML fournis pour vérifier leur bon fonctionnement.
-3. Tous les scripts sont interprétés dans Google Chrome (version 57.0 ou supérieure).
+## 🎯 Learning Objectives
+By the end of this project, you will be able to:
+- Select and manipulate HTML elements using JavaScript.
+- Understand and apply different selectors (ID, class, tag name).
+- Dynamically modify the styles and content of HTML elements.
+- Handle user events effectively.
+- Perform API requests using `fetch`.
+- Manipulate the DOM to create interactive web experiences.
+
+---
+
+## 📋 Project Tasks
+
+### **Task 0: Color Me**
+- **Goal**: Change the header text color to red.
+- **Method**: Use `document.querySelector()` to select the header.
+- **Skills**: Inline style manipulation.
+
+---
+
+### **Task 1: Click and Turn Red**
+- **Goal**: Change the header text color to red on click.
+- **Method**: Add an event listener to a specific element.
+- **Skills**: Event handling, style modification.
+
+---
+
+### **Task 2: Add .red Class**
+- **Goal**: Add a CSS class to the header on click.
+- **Method**: Use `classList.add()`.
+- **Skills**: CSS class manipulation.
+
+---
+
+### **Task 3: Toggle Classes**
+- **Goal**: Alternate between two classes (red and green).
+- **Method**: Use `classList.contains()`, `classList.remove()`, `classList.add()`.
+- **Skills**: Conditional class manipulation.
+
+---
+
+### **Task 4: List of Elements**
+- **Goal**: Dynamically add elements to a list.
+- **Method**: Use `document.createElement()` and `appendChild()` to create and add elements.
+- **Skills**: Dynamic DOM manipulation.
+
+---
+
+### **Task 5: Change the Text**
+- **Goal**: Update the text of an element.
+- **Method**: Use `textContent` to modify the content.
+- **Skills**: Text content modification.
+
+---
+
+### **Task 6: Star Wars Character**
+- **Goal**: Fetch and display a Star Wars character via an API.
+- **Method**: Use `fetch()` to make an API request.
+- **Skills**: Asynchronous requests, promise handling.
+
+---
+
+### **Task 7: Star Wars Movies**
+- **Goal**: List all Star Wars movies.
+- **Method**: Use `fetch()` and iterate over the results.
+- **Skills**: API requests, dynamic element creation.
+
+---
+
+### **Task 8: Say Hello**
+- **Goal**: Display a translation of "Hello" from an API.
+- **Method**: Use `fetch()` to retrieve the translation.
+- **Skills**: International API requests.
+
+---
+
+### Advanced Tasks (9 and 10)
+- Advanced list manipulation.
+- Dynamic translations based on language selection.
+
+---
+
+## 🛠 Technologies Used
+- **JavaScript** (DOM API, Fetch API)
+- **JavaScript Event Handling**
+
+---
+
+## 📦 Prerequisites
+- A modern browser (Google Chrome 57.0 or later recommended).
+- A code editor (e.g., VS Code or Sublime Text).
+
+---
+
+## 🚦 Instructions
+1. Clone this repository:  
+   ```bash
+   git clone <repository_url>
